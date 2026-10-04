@@ -67,6 +67,11 @@ fun DiceRollerApp() {
             contentDescription = "Dice showing $diceNumber",
             modifier = Modifier.height(200.dp)
         )
+        Image(
+            painter = painterResource(id = diceImage),
+            contentDescription = "Dice showing $diceNumber",
+            modifier = Modifier.height(200.dp)
+        )
 
         Text(
             text = "Dadu menunjukkan angka: $diceNumber",
